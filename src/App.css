@@ -1,0 +1,360 @@
+.App {
+  text-align: center;
+}
+.MainDiv {
+  font-family: "Poppins", sans-serif;
+}
+.Submit {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 0.5rem 4rem;
+  box-shadow: 2px 2px 2px black;
+}
+.Submit:hover {
+  background-color: #1167b2;
+  box-shadow: 2px 2px 2px rgb(79, 74, 74);
+}
+.FirstName {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 20rem;
+}
+.heading {
+  color: #777777;
+  font-weight: 700;
+}
+.Address {
+  border: 1px solid blackS;
+}
+.InputAddress {
+  /* width: 72.5rem; */
+  width: 82vw;
+}
+.Hobbies {
+  width: 72.5rem;
+
+  margin-bottom: 2rem;
+}
+#Fresher {
+  width: 72.5rem;
+}
+#Edu {
+  width: 82rem;
+}
+
+.selectedNo {
+  background-color: rgb(153, 153, 153);
+  color: black;
+}
+.Experiance {
+  color: black;
+  font-weight: 600;
+}
+/* .PrevJobLoc {
+  margin-left: 4rem;
+} */
+.ExpInput {
+  border: 5px solid white;
+  box-shadow: 2px 2px 2px black;
+  /* width: 100vw; */
+}
+.adress {
+  margin-left: 4.4rem;
+}
+.ThirdEduDetail {
+  /* margin-left: -1rem; */
+  margin-left: 5rem;
+}
+.After10th {
+  padding-left: 1.5rem;
+  /* padding-right: 1.5rem; */
+  margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .heading {
+    font-size: inherit;
+  }
+
+  .main-Form-Resume {
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    /* margin-left: 2.5rem; */
+    font-size: inherit;
+  }
+
+  /* align-items: center;
+  display: flex;
+  flex-direction: column; */
+
+  .Educationnn {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .adress {
+    /* width: 100vw; */
+    margin: 0rem;
+    /* margin: auto; */
+  }
+  .InputAddress {
+    width: 100vw;
+  }
+  .SemiPersonal {
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 2rem; */
+  }
+  .Hobbies {
+    width: 100vw;
+    margin-bottom: 2rem;
+  }
+  #Fresher {
+    /* margin-left: -4rem;
+    margin-right: 3rem; */
+    width: 100vw;
+  }
+  .FresheerClass {
+    margin-left: 3rem;
+    margin-right: -6rem;
+  }
+  .EducationDetails {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+  }
+  .ThirdEduDetail {
+    margin-left: 4rem;
+  }
+  .After10th {
+    margin-left: -3.5rem;
+    align-items: center;
+  }
+
+  #Edu {
+    width: 20rem;
+    margin-left: 4rem;
+  }
+  #AfterTenth {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+  }
+  .AfterDiplomaa {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4rem;
+  }
+  .AfterTwelthR {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4rem;
+  }
+  .firstTwo {
+    flex-direction: column;
+    align-items: center;
+    font-size: inherit;
+  }
+  .jobs {
+    flex-direction: column;
+    align-items: center;
+    font-size: inherit;
+  }
+  .PrevJobLoc {
+    margin-left: 0rem;
+    align-items: center;
+    font-size: inherit;
+  }
+  .ExpInput {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .heading {
+    font-size: initial;
+  }
+
+  .main-Form-Resume {
+    flex-direction: column;
+    margin: auto;
+    font-size: inherit;
+  }
+  .adress {
+    margin: auto;
+  }
+  .InputAddress {
+    width: 19.5rem;
+  }
+  .SemiPersonal {
+    flex-direction: column;
+    margin: auto;
+  }
+  .Hobbies {
+    width: 40rem;
+    margin-bottom: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  #Fresher {
+    width: 40rem;
+  }
+
+  .FresheerClass {
+    margin: auto;
+  }
+
+  .EducationDetails {
+    flex-direction: column;
+    /* margin-left: -2rem; */
+  }
+  .After10th {
+    margin-left: -3.5rem;
+  }
+
+  #Edu {
+    width: 40rem;
+  }
+  #AfterTenth {
+    flex-direction: column;
+    /* margin-left: -2rem; */
+  }
+  .AfterDiplomaa {
+    flex-direction: column;
+    /* margin-left: -5rem; */
+  }
+  .AfterTwelthR {
+    flex-direction: column;
+    /* margin-left: -5rem; */
+  }
+  .firstTwo {
+    flex-direction: column;
+  }
+  .jobs {
+    flex-direction: column;
+  }
+  .PrevJobLoc {
+    margin-left: 0rem;
+  }
+  .FirstName {
+    width: 40rem;
+  }
+  .firstName {
+    justify-content: initial;
+  }
+  .ThirdEduDetail {
+    margin: 0rem;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .main-Form-Resume {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 140vw;
+  }
+  .PrevJobLoc {
+    margin-left: 0rem;
+  }
+  .adress {
+    margin-left: 2.5rem;
+  }
+  .InputAddress {
+    width: 131vw;
+  }
+  .SemiPersonal {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 140vw;
+  }
+  .firstName {
+    justify-content: initial;
+  }
+  .ThirdEduDetail {
+    margin-left: -4rem;
+    display: contents;
+  }
+  .Hobbies {
+    width: 131vw;
+    margin-bottom: 2rem;
+  }
+
+  #Fresher {
+    width: 131vw;
+  }
+  .FresheerClass {
+    padding-left: 2.8rem;
+  }
+  .After10th {
+    margin-left: -1.5rem;
+  }
+  #Edu {
+    width: 80rem;
+  }
+  .EducationDetails {
+    margin-left: -3rem;
+  }
+  #AfterTenth {
+    margin-left: -3rem;
+  }
+  .AfterTwelthR {
+    margin-left: -3rem;
+  }
+  .AfterDiplomaa {
+    margin-left: -3rem;
+  }
+}
+/* 1280x1024 (and larger) */
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .main-Form-Resume {
+    flex-wrap: wrap;
+    margin-right: -20rem;
+  }
+  .PrevJobLoc {
+    margin: 0px;
+  }
+  .SemiPersonal {
+    margin-right: -20rem;
+    flex-wrap: wrap;
+  }
+  .adress {
+    margin-left: 3rem;
+  }
+  .InputAddress {
+    width: 71.5rem;
+  }
+  .FresheerClass {
+    margin-left: 20rem;
+  }
+  .Hobbies {
+    width: 72rem;
+    margin-bottom: 2rem;
+  }
+  #Fresher {
+    width: 72rem;
+  }
+  .EducationDetails {
+    justify-content: space-between;
+    margin-left: -3rem;
+  }
+  .After10th {
+    margin-left: -4rem;
+    margin-right: 5rem;
+  }
+  #Edu {
+    width: 80rem;
+  }
+  #AfterTenth {
+    margin-left: -3rem;
+    justify-content: space-between;
+  }
+  .AfterDiplomaa {
+    margin-left: 17rem;
+  }
+  .AfterTwelthR {
+    justify-content: space-between;
+    margin-left: -3rem;
+  }
+}
